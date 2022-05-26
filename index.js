@@ -20,7 +20,7 @@ module.exports = {
         }
 
         //静态目录。
-        let list = Object.keys(key$dirs).map((key) => {
+        let keys = Object.keys(key$dirs).map((key) => {
             let dirs = key$dirs[key];
 
             if (!Array.isArray(dirs)) {
@@ -42,7 +42,7 @@ module.exports = {
             return key;
         });
 
-        return list;
+        return keys;
 
     },
 };

@@ -1,7 +1,7 @@
 {
   "name": "@webpart/server-static",
-  "version": "1.0.1",
-  "description": "",
+  "version": "1.0.2",
+  "description": "用于开发阶段的本地 web 服务器的映射虚拟静态目录服务。",
   "main": "index.js",
   "scripts": {},
   "keywords": [],
